@@ -40,8 +40,8 @@ export default function PinLock({ onUnlock, correctPin }) {
         <Lock size={48} />
       </div>
       
-      <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 700, marginBottom: '32px' }}>
-        Shop Manager
+      <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 700, marginBottom: '32px', textAlign: 'center' }}>
+        Sofitel and daughters
       </h2>
 
       {/* Pin Dots */}

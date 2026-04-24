@@ -32,7 +32,7 @@ export default function App() {
   };
 
   const titles = {
-    'dashboard': 'Gas Shop Dashboard',
+    'dashboard': 'Sofitel and daughters',
     'stock': 'Inventory Management',
     'debts': 'Customer Debts',
     'reports': 'Sales Reports'

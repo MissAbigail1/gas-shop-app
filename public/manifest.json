@@ -1,16 +1,16 @@
 {
-  "name": "Gas Shop Manager",
-  "short_name": "Gas Shop",
+  "name": "Sofitel and daughters",
+  "short_name": "Sofitel & Co",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#BE5103",
-  "description": "Family Gas Shop Management Tool",
+  "description": "Family Shop Management Tool",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "/logo.png",
       "sizes": "192x192 512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
