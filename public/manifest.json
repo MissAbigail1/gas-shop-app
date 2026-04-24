@@ -1,0 +1,17 @@
+{
+  "name": "Gas Shop Manager",
+  "short_name": "Gas Shop",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#BE5103",
+  "description": "Family Gas Shop Management Tool",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
