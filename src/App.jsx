@@ -10,9 +10,15 @@ import { useStore } from './hooks/useStore';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
-  const [isUnlocked, setIsUnlocked] = useState(
-    localStorage.getItem('gasShopUnlocked') === 'true'
-  );
+  const getInitialLockState = () => {
+    try {
+      return localStorage.getItem('gasShopUnlocked') === 'true';
+    } catch {
+      return false; // Safely fail if Safari PWA blocks memory access
+    }
+  };
+
+  const [isUnlocked, setIsUnlocked] = useState(getInitialLockState());
   const store = useStore();
 
   const renderTab = () => {

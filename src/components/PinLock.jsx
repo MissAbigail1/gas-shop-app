@@ -14,7 +14,9 @@ export default function PinLock({ onUnlock, correctPin }) {
     if (newPin.length === 4) {
       if (newPin === correctPin) {
         // Correct PIN entered!
-        localStorage.setItem('gasShopUnlocked', 'true');
+        try {
+          localStorage.setItem('gasShopUnlocked', 'true');
+        } catch (err) {}
         onUnlock();
       } else {
         // Wrong PIN
